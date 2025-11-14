@@ -1,5 +1,5 @@
 # HAT-FLEX
-### Laboratory of Tychele N. Turner, Ph.D.
+### Tychele N. Turner, Ph.D.
 ### Washington University in St. Louis
 
 HAT-FLEX: Flexible Trio DNV detection on existing VCFs.
