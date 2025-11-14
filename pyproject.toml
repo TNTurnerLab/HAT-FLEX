@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hat-flex"
+version = "1.0"
+description = "HAT-FLEX: Flexible Trio DNV detection on existing VCFs."
+readme = "README.md"
+requires-python = ">=3.13.5"
+license = { text = "MIT" }
+authors = [
+  { name="Tychele N. Turner", email="tychele@wustl.edu" }
+]
+dependencies = [
+    "pysam>=0.23.3"
+]
+
+[project.urls]
+Homepage = "https://github.com/tnturnerlab/hat-flex"
+
+[project.scripts]
+hat-flex = "hat_flex.cli:main"
+
