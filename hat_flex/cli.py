@@ -37,9 +37,9 @@ class ParIntervals:
         else:
             info("[PAR] using built-in hg38 PAR defaults")
             for chrom in ("X","chrX"):
-                self.par[chrom].extend([(60001, 2699520), (154931044, 156030895)])
+                self.par[chrom].extend([(10000, 2781479), (155701382, 156030895)])
             for chrom in ("Y","chrY"):
-                self.par[chrom].extend([(10001, 2649520), (59034050, 59363566)])
+                self.par[chrom].extend([(10000, 2781479), (56887902, 57217415)])
         if verbose:
             n = sum(len(v) for v in self.par.values())
             log(f"[PAR] loaded intervals (total entries: {n})", verbose)
