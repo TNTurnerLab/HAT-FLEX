@@ -6,8 +6,12 @@
 
 HAT-FLEX is a caller-agnostic, drop-in trio DNV detection tool that operates directly on existing VCFs. It introduces allele-level intersection, sex/PAR-aware logic, clustering, comprehensive audit outputs, and streamlined operations. HAT-FLEX supports both trio-level and large multi-sample VCFs, producing tidy, per-child outputs with full provenance. Developed in response to user feedback from HAT, HAT-FLEX enables use of existing VCFs, can extend to non-human species with diploid genomes, improves performance, increases configurability, and provides robust handling of sex chromosomes (X/Y).
 
+---
+
 > [!NOTE]
 > Supports VCFs generated on highly accurate **short-read** and **long-read** sequencing datasets, respectively.
+
+---
 
 For reference, HAT is our original de novo variant calling tool and it begins with the CRAM or BAM files for each trio members. It is available here: https://github.com/tnturnerlab/HAT. If using **HAT** or **HAT-FLEX**, please cite our HAT paper:
 
@@ -16,6 +20,8 @@ Ng JK, Turner TN. HAT: de novo variant calling for highly accurate short-read an
 Already have DNVs and looking to QC them? Check out our tool acorn at: https://github.com/TNTurnerLab/acorn. If using **acorn**, please cite our paper:
 
 Turner TN. Acorn: an R package for de novo variant analysis. BMC Bioinformatics. 2023 Sep 2;24(1):330. doi: 10.1186/s12859-023-05457-z. PMID: 37660114; PMCID: PMC10475174.
+
+---
 
 ## HAT-FLEX vs HAT (cool differentiators)
 
