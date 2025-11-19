@@ -2,9 +2,12 @@
 ### Tychele N. Turner, Ph.D.
 ### Washington University in St. Louis
 
-HAT-FLEX: Flexible Trio DNV detection on existing VCFs.
+**HAT-FLEX**: Flexible Trio DNV detection on existing VCFs.
 
 HAT-FLEX is a caller-agnostic, drop-in trio DNV detection tool that operates directly on existing VCFs. It introduces allele-level intersection, sex/PAR-aware logic, clustering, comprehensive audit outputs, and streamlined operations. HAT-FLEX supports both trio-level and large multi-sample VCFs, producing tidy, per-child outputs with full provenance. Developed in response to user feedback from HAT, HAT-FLEX enables use of existing VCFs, can extend to non-human species with diploid genomes, improves performance, increases configurability, and provides robust handling of sex chromosomes (X/Y).
+
+> [!NOTE]
+> Supports VCFs generated on highly accurate **short-read** and **long-read** sequencing datasets, respectively.
 
 For reference, HAT is our original de novo variant calling tool and it begins with the CRAM or BAM files for each trio members. It is available here: https://github.com/tnturnerlab/HAT. If using **HAT** or **HAT-FLEX**, please cite our HAT paper:
 
