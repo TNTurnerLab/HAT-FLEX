@@ -7,7 +7,7 @@ name = "hat-flex"
 version = "1.0"
 description = "HAT-FLEX: Flexible Trio DNV detection on existing VCFs."
 readme = "README.md"
-requires-python = ">=3.13.5"
+requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [
   { name="Tychele N. Turner", email="tychele@wustl.edu" }
