@@ -4,6 +4,10 @@
 
 **HAT-FLEX**: Flexible Trio DNV detection on existing VCFs.
 
+[![License](https://img.shields.io/badge/license-MIT-informational)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)]()
+[![Status](https://img.shields.io/badge/status-beta-orange)]()
+
 HAT-FLEX is a caller-agnostic, drop-in trio DNV detection tool that operates directly on existing VCFs. It introduces allele-level intersection, sex/PAR-aware logic, clustering, comprehensive audit outputs, and streamlined operations. HAT-FLEX supports both trio-level and large multi-sample VCFs, producing tidy, per-child outputs with full provenance. Developed in response to user feedback from HAT, HAT-FLEX enables use of existing VCFs, can extend to non-human species with diploid genomes, improves performance, increases configurability, and provides robust handling of sex chromosomes (X/Y).
 
 ---
